@@ -7,3 +7,6 @@ Each test has DataProvider with multiple datasets
 3. One positive to check combinations with all query params
 4. One positive to check page limits and page offset
 5. One positive to check sorting (DataProvider will provide fields for sorting and Comparator.comparing(Brewery::getName) to verify that received response sorted correctly)
+
+Complexity: medium
+Estimation: 8h
